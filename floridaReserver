@@ -18,12 +18,10 @@ https://www.reserve.floridastateparks.org/Web/#!park/58/159
 After going to the page, you'll probably have to select a 'starting date' and 'end date' to get the the page to show some open campsites.
  I used  Apr 2, 2023 - Apr 3, 2023 and selected Loop B (from pull down).
 
-JPG:  Site Refresh_Select Screenshot :
 The steps are #1 to Refresh the page; if a campsite isn't already available, this can update the page to show it available.
  
 Then #2 would be to select a campsite.  After clicking the site, then the next screen appears:
-with the 'Book Now' button:
-JPG: Site Book Now Screenshot
+with the 'Book Now' button
 **/
 
 (function() {
