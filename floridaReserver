@@ -20,15 +20,14 @@
         // poll for checkout button every 500ms for 5 seconds
         // TODO: play around with this.  I found when I poll with smaller time periods
         // I end up clicking the button before its ready to be clicked
-        for (let i = 0; i < 50; i++) {
-            setTimeout(function() {
-                if($('#checkout-button').length) {
-                    $('#checkout-button').css('color', 'red');
-                    $('#checkout-button').click();
-                    i=999999999;
-                }
-            }, 500);
-        }
+        setTimeout(function() {
+            if($('#checkout-button').length) {
+                $('#checkout-button').css('color', 'red');
+                $('#checkout-button').click();
+                i=999999999;
+            }
+        }, 500);
+
 
     });
 })();
