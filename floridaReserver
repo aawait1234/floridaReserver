@@ -17,14 +17,13 @@
         $('#site-3233-3 > div').css('background-color', 'red');
         $('#site-3233-3 > div').click();
 
-        // poll for checkout button every 500ms for 5 seconds
-        // TODO: play around with this.  I found when I poll with smaller time periods
-        // I end up clicking the button before its ready to be clicked
+        // Wait for 500ms then try to click the "book now" button 
+        // TODO: play around with this.  Ideally we could 'waitForElm' for this button
+        // but I couldn't get it to work.  Lowest effort would be to tune the time (does 250ms work?)
         setTimeout(function() {
             if($('#checkout-button').length) {
                 $('#checkout-button').css('color', 'red');
                 $('#checkout-button').click();
-                i=999999999;
             }
         }, 500);
 
